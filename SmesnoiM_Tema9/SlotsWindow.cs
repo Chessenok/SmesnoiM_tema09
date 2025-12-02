@@ -48,14 +48,14 @@ public class SlotsWindow : GameWindow
         // Încărcare Texturi
         try
         {
-            _texFrame = new Texture("frame.png");
-            _texButton = new Texture("button.png");
+            _texFrame = new Texture("Assets/frame.png");
+            _texButton = new Texture("Assets/button.png");
 
             _symbolTextures = new Texture[] {
-                new Texture("seven.png"),
-                new Texture("cherry.png"),
-                new Texture("bar.png"),
-                new Texture("limon.png")
+                new Texture("Assets/seven.png"),
+                new Texture("Assets/cherry.png"),
+                new Texture("Assets/bar.png"),
+                new Texture("Assets/limon.png")
             };
         }
         catch (Exception ex)
